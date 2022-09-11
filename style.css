@@ -1,0 +1,70 @@
+@import url("https://db.onlinewebfonts.com/c/97c4b25dc74e0ab045154e75a8fdd69d?family=Game+of+Thrones");
+
+body {
+  margin: 0; 
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(36, 26, 26);
+  text-align: center;
+}
+
+h1 {
+  font-family: Game Of Thrones;
+  font-size: 1rem;
+  color: white;
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+  width: 100%; 
+}
+
+.char__container { 
+  width: 75%;
+  height: 100%;  
+  background-image: url("./assets/site/mapblue.jpg");
+  display: grid;
+  grid-template: repeat(6, auto) / repeat(8, auto);
+  padding: 5px;
+}
+
+.charDiv {
+  cursor: pointer;
+}
+.charDivImg {
+ width: 50%;
+}
+
+.sidebar {   
+  display: flex;
+  flex-direction: column;  
+  width: 25%;
+  height: 100%; 
+}
+
+.sidebar__images {
+display: flex;
+
+}
+
+ .search {
+  display: flex;  
+ }
+
+ .input {
+  display: flex; 
+ }
+
+.bottom {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.arrow {
+  color: white;
+} 
+
